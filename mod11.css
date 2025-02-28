@@ -1,0 +1,71 @@
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ac608a;
+    border: 1px solid #9b577c;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f01b9e;
+    border: 1px solid #f575a6;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.chat-message {
+    padding: 5px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #a05483;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#message-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+h1{
+    color: #f01b9e;
+    border: 2px solid rgb(161, 38, 79);
+    border-radius: 5px;
+    background-color: #ffbde0;
+    width: 200px;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+button {
+    width: 15%;
+    padding: 8px;
+    background-color: #e682cd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fc45b0;
+}
+
+body{
+    background-image: url(MEDY.jpg);
+    padding-top: 200px;
+    align-items: center;
+}
